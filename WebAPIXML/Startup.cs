@@ -14,15 +14,13 @@
 			services.AddControllers().AddXmlDataContractSerializerFormatters();
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			services.AddEndpointsApiExplorer();
-			//services.AddSwaggerGen();
 		}
 
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 		{
 			if (env.IsDevelopment())
 			{
-				//app.UseSwagger();
-				//app.UseSwaggerUI();
+				// Here goes some stuff
 			}
 
 			app.UseHttpsRedirection();
